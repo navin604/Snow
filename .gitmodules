@@ -1,0 +1,3 @@
+[submodule "Snow/vendor/spdlog"]
+	path = Snow/vendor/spdlog
+	url = https://github.com/gabime/spdlog
