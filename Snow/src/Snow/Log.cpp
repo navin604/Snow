@@ -1,4 +1,8 @@
+#include "snowpch.h"
 #include "Log.h"
+
+
+
 
 namespace Snow {
 

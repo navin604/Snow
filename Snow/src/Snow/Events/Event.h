@@ -1,9 +1,7 @@
 #pragma once
 
 #include "Snow/Core.h"
-
-#include <string>
-#include <functional>
+#include "snowpch.h"
 
 namespace Snow {
 
@@ -59,8 +57,7 @@ namespace Snow {
 		template<typename T>
 		using EventFn = std::function<bool(T&)>;
 	public:
-		EventDispatcher(Event& event)
-			: m_Event(event)
+		EventDispatcher(Event& event) : m_Event(event)
 		{
 		}
 

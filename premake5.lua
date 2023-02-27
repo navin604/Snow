@@ -18,6 +18,10 @@ project "Snow"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader "snowpch.h"
+	pchsource "Snow/src/snowpch.cpp"
+
+
 	files
 	{
 		"%{prj.name}/src/**.h",
